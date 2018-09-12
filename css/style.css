@@ -1,0 +1,139 @@
+/* #2 #colorful #palette is:
+          * Background: #F5F5F5 (GREY 100)
+          * Primary Text: black
+
+          * Primary color: #3F51B5 (INDIGO)
+          * Primary color_text : white
+          * Accent color: #CDDC39 (LIME)
+          * Accent color_text: black
+          */
+
+/* GLOBAL */
+
+* {
+    /* #2 #font #faces */
+    font-family: 'Roboto', 'Arial', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    /* #2 #colorful #background */
+    background-color: #F5F5F5;
+}
+
+button {
+    /* #2 #colourful #plusfive */
+    background-color: #CDDC39;
+    color: black;
+}
+
+button, a {
+    text-transform: uppercase;
+}
+
+/* APP BAR */
+
+h1 {
+    /* #2 #colourful #app-bar */
+    background-color: #3F51B5;
+    color: white;
+}
+
+/* CHANNELS LIST */
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    /* #2 #colorful #channelandchat */
+    background-color: white;
+
+    font-size: 16px;
+
+    padding: 16px;
+    border-bottom: 1px solid #F5F5F5;
+
+    box-sizing: border-box;
+    height: 48px;
+}
+
+li img {
+    vertical-align: middle;
+}
+
+ul .channel-selected {
+    color: #3F51B5;
+    border-left: 4px solid #3F51B5;
+}
+
+/* TAB BAR */
+
+#tab-bar {
+    background-color: white;
+}
+
+#tab-bar button {
+    text-align: center;
+    font-size: 13px;
+
+    background-color: white;
+
+    border: 0;
+    padding: 16px;
+
+    width: 33%;
+    height: 72px;
+}
+
+#tab-bar button img {
+    display: block;
+    margin: auto;
+    margin-bottom: 4px;
+}
+
+#tab-bar .selected {
+    border-bottom: 4px solid #3F51B5;
+    color: #3F51B5;
+}
+
+/* MESSAGES */
+
+.message {
+    width: 80%;
+    margin-bottom: 8px;
+    margin-left: 2.5%;
+}
+
+
+.message p {
+    /* #2 #colorful #channelandchat */
+    background-color: white;
+
+    padding: 15px;
+}
+
+.message strong {
+    /* #2 #font #locations need an extra element, we'll use strong for w3w locations */
+    text-transform: uppercase;
+}
+
+.message h3 {
+    /* #2 #font #metadata is now medium */
+    font-size: medium;
+}
+
+.message em {
+    /* #2 #font #remaining overrides the default italic appearance of em elements*/
+    font-size: larger;
+    font-style: normal;
+}
+
+.message a {
+    color: black;
+}
+
+.own{
+    margin-left: 17.5%;
+}
