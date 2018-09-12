@@ -83,7 +83,8 @@ ul .channel-selected {
     border: 0;
     padding: 16px;
 
-    width: 33%;
+    /*there are problems ocurring, when you use 33% as width, so just imagine it here :)*/
+    width: 32.5%;
     height: 72px;
 }
 
